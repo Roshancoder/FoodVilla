@@ -1,0 +1,63 @@
+.restaurant-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.restaurant-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.restaurant-info li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.restaurant-info li strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.move-to-cart-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.move-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.error, .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #ff3333;
+}
+
+.loading {
+    color: #666;
+}
